@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course Recommendation</title>
+</head>
+<body>
+    <h1>Course Recommendation</h1>
+    <form method="POST" action="/recommend">
+        <!-- Add input fields here for student data -->
+        <label for="course1">Course 1:</label>
+        <input type="number" name="student_data[]" id="course1">
+
+        <label for="course2">Course 2:</label>
+        <input type="number" name="student_data[]" id="course2">
+
+        <label for="course3">Course 3:</label>
+        <input type="number" name="student_data[]" id="course3">
+
+        <label for="course4">Course 4:</label>
+        <input type="number" name="student_data[]" id="course4">
+
+        <label for="course5">Course 5:</label>
+        <input type="number" name="student_data[]" id="course5">
+
+        <label for="course6">Course 6:</label>
+        <input type="number" name="student_data[]" id="course6">
+
+        <label for="course7">Course 7:</label>
+        <input type="number" name="student_data[]" id="course7">
+
+        <label for="course8">Course 8:</label>
+        <input type="number" name="student_data[]" id="course8">
+
+        <label for="course9">Course 9:</label>
+        <input type="number" name="student_data[]" id="course9">
+
+        <label for="course10">Course 10:</label>
+        <input type="number" name="student_data[]" id="course10">
+
+        <label for="course11">Course 11:</label>
+        <input type="number" name="student_data[]" id="course11">
+        <!-- Add input fields for other courses -->
+        <!-- 강의가 총 11개인 경우 각각의 강의에 대한 입력 필드를 추가 -->
+
+        <input type="submit" value="Get Recommendations">
+    </form>
+    <div id="recommendations">
+        <!-- Recommendations will be displayed here -->
+    </div>
+</body>
+</html>
